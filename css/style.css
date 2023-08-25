@@ -132,7 +132,7 @@ header{
   background-color: #151C30;
   width: 17vw;
   margin-top: 3vh;
-  margin-left: 2vw;
+  margin-left: 2.5vw;
   border-radius: 2vh;
   height: 7vh;
 }
@@ -144,6 +144,7 @@ header{
 
 .search-bar input{
   background-color: #151C30;
+  width: 13vw;
 }
 
 .search-bar i{
@@ -162,7 +163,7 @@ header{
   background-color: #151C30;
   width: 17vw;
   margin-top: 3vh;
-  margin-left: 2vw;
+  margin-left: 2.5vw;
   border-radius: 2vh;
   height: 33vh;
   text-align: center;
@@ -207,4 +208,74 @@ header{
 
 .bonus-container p{
   font-weight: bolder;
+}
+
+.my-tickets-button-container{
+  background-color: #151C30;
+  width: 17vw;
+  margin-top: 3vh;
+  margin-left: 2.5vw;
+  border-radius: 2vh;
+  text-align: center;
+  height: 8vh;
+}
+
+.my-tickets-button button{
+  background-color: #222c46;
+  width: 15vw;
+  height: 5vh;
+  margin-top: 1.3vh;
+  border-radius:1.5vh;
+  font-weight: bolder;
+  text-shadow: 1px 1px 4px #FFF;
+}
+
+.deposit-button button{
+  background-color: #1eaf5c;
+  width: 15vw;
+  height: 5vh;
+  margin-top: 1.3vh;
+  border-radius:1.5vh;
+  font-weight: bolder;
+  text-shadow: 1px 1px 4px #FFF;
+}
+
+.withraw-button button{
+  background-color: #222c46;
+  width: 15vw;
+  height: 5vh;
+  margin-top: 2vh;
+  border-radius:1.5vh;
+  font-weight: bolder;
+  text-shadow: 1px 1px 4px #FFF;
+}
+
+.deposit-withraw-buttons-container{
+  background-color: #151C30;
+  width: 17vw;
+  margin-top: 3vh;
+  margin-left: 2.5vw;
+  border-radius: 2vh;
+  text-align: center;
+  height: 15vh;
+}
+
+.how-top-play-button-container{
+  background-color: #151C30;
+  width: 17vw;
+  margin-top: 3vh;
+  margin-left: 2.5vw;
+  border-radius: 2vh;
+  text-align: center;
+  height: 8vh;
+}
+
+.how-top-play-button button{
+  background-color: #222c46;
+  width: 15vw;
+  height: 5vh;
+  margin-top: 1.3vh;
+  border-radius:1.5vh;
+  font-weight: bolder;
+  text-shadow: 1px 1px 4px #FFF
 }
