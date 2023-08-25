@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');  
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Nunito', sans-serif;
+}
+:before, *:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
 p,
 ul[class],
 ol[class],
@@ -75,10 +115,52 @@ header{
 }
 
 .logo-container{
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .logo-container svg{
     height: 25vh;
     width: 25vw;
+}
+.logo-container svg{
+    height: 50vh;
+    width: 50vh;
+}
+
+.search-bar-container{
+  background-color: #151C30;
+  width: 17vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  border-radius: 2vh;
+  height: 7vh;
+}
+
+.search-bar{
+  padding-left: 1vw;
+  padding-top: 1.7vh;
+}
+
+.search-bar input{
+  background-color: #151C30;
+}
+
+.search-bar i{
+  color: #2c395b;
+}
+
+.profile_photo img{
+  height: 15vh;
+  width: 15vh;
+  border-radius: 100%;
+}
+
+.profile{
+  background-color: #151C30;
+  width: 17vw;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  border-radius: 2vh;
+  height: 40vh;
+  text-align: center;
 }
