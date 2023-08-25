@@ -4,6 +4,7 @@
   margin: 0;
   border: 0;
   font-family: 'Nunito', sans-serif;
+  color: white;
 }
 :before, *:after{
   -moz-box-sizing: border-box;
@@ -153,6 +154,8 @@ header{
   height: 15vh;
   width: 15vh;
   border-radius: 100%;
+  margin-left: 5vw;
+
 }
 
 .profile{
@@ -161,6 +164,47 @@ header{
   margin-top: 3vh;
   margin-left: 2vw;
   border-radius: 2vh;
-  height: 40vh;
+  height: 33vh;
   text-align: center;
+  padding-top: 2.5vh;
+}
+
+.username{
+  margin-top: 1vh;
+}
+
+.username a{
+  font-weight: bolder;
+  font-size: 3vh;
+  font-style: italic;
+  margin-right: 1vh;
+  margin-top: 1vh;
+}
+
+.username i{
+  font-weight: bolder;
+  font-size: 3vh;
+  color: white;
+}
+
+.balance-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+.main-cash-balance a,i{
+  color: #B7B6B4;
+}
+
+.main-cash-balance p{
+  font-weight: bolder;
+}
+
+.bonus-container a,i{
+  color: #B7B6B4;
+}
+
+.bonus-container p{
+  font-weight: bolder;
 }
