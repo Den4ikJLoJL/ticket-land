@@ -113,10 +113,12 @@ header{
     display: flex;
     align-items: center; 
     justify-content: center; 
+    position: fixed;
 }
 
 .logo-container{
     margin-top: 3rem;
+    position: fixed;
 }
 
 .logo-container svg{
@@ -277,5 +279,5 @@ header{
   margin-top: 1.3vh;
   border-radius:1.5vh;
   font-weight: bolder;
-  text-shadow: 1px 1px 4px #FFF
+  text-shadow: 1px 1px 4px #FFF;
 }
